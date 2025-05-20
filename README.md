@@ -14,3 +14,5 @@ Little repository gathering info together for the Etikus Hackelés 1 course in t
 - [Exploiting SUID bits and programs with SUDO permissions](suidsudo.md)
 
 - [FTP, SSH exploits and using Burpsuite](ftpsshburp.md)
+
+- [Python library Hijacking](pythonlib.md)

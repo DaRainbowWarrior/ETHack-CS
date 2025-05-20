@@ -48,8 +48,3 @@
 - After completing a form or some other interaction of a website, and the link you see ends in eg. `busque.php?buscar=` it's a vulnerabilty to exploit
     - With `"<your code here>"` put after the `=` there's a good chance you can use RCE on the target machine
     - From there it's easy to use the good ol' [Chained Reverse shell](crevshell.md)
-
-
-
-
-

