@@ -1,3 +1,4 @@
 # ETHack-CS
 
-[Basic Authentication](basicauth.md)
+[Linux basic commands](linux.md)
+[Basic authentication](basicauth.md)
