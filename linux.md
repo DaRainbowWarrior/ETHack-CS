@@ -60,7 +60,7 @@ Every file in linux has a something like `-rw-r--r--. 1 root root`.
     - Numbers: the read permission represents `4`, write `2`, and execute `1`. Added together they represent the permissions.
         - 3 of these numbers together form the full permissions for a file (first number for the owner, second for the group, third for "others")
         - eg. `chmod 777 <filename>` will give all permissions for all 3 groups ( 4 + 2 + 1 = 7 )
-    - Text (too lazy to deal with that rn)
+    - Text (too lazy to deal with that rn, the numbers method is good enough to use)
 
 
 ## Running programs
