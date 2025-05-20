@@ -19,8 +19,8 @@
 
 ### echo \<text>
 - Write text or replace text in a file
-    - if used as `echo <text> >`, replaces the whole text in the file with the text you echoed
-    - if used as `echo <text> >>`, adds the text to the end of the already existing text
+    - if used as `echo <text> > <file>`, replaces the whole text in the file with the text you echoed
+    - if used as `echo <text> >> <file>`, adds the text to the end of the already existing text
 
 ### ls \<directory, optional>
 - Lists all files and directories
