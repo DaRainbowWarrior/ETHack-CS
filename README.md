@@ -9,3 +9,6 @@ Little repository gathering info together for the Etikus Hackelés 1 course in t
 
 - [Chained Reverse shell](crevshell.md)
 
+- [Wordpress exploitation](wordpress.md)
+
+- [Exploiting SUID bits and programs with SUDO permissions](suidsudo.md)
