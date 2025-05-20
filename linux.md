@@ -28,7 +28,15 @@
     - `-l` t view details, including **permissions**
 
 ### su \<user to switch to>
-- Switches users. You'll need to know their password tho.
+- Switches users. You'll need to know their password tho
+
+### sudo \<command> \<modifier>
+- Super User DO. Run something with elevated privileges. You'll need the current user's password
+- The modifier `-u <user>` is useful here, letting you run commands or programs as other users, without switching to them 
+    - important, you need to have permission to run that command/program to do this
+
+### locate \<filename+extension>
+- Locates a specific file on your computer
 
 ## Permissions
 
