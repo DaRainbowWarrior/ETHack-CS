@@ -5,5 +5,7 @@ Little repository gathering info together for the Etikus Hackelés 1 course in t
 
 - [Linux basics](linux.md)
 
-- [Basic authentication](basicauth.md)
+- [Basic authentication and reverse shell](basicauth.md)
+
+- [Chained Reverse shell](crevshell.md)
 

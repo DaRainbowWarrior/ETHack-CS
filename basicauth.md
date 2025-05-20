@@ -1,13 +1,13 @@
 [Back to Main page](README.md)
 
-# Basic Authentication
+# Basic authentication and reverse shell
 
 The basics of finding and getting into a target.
 
 ### ping \<IP adress> / \<Link>
 - Pings the target, confirming if it's online or not.
 
-## Scanning the target
+## Scanning the target and basic authentication
 
 ### nmap \<IP adress>
 - There are lots of modifiers, but for the class using it as `sudo nmap -sS -sV <IP adress>` is best
@@ -31,5 +31,15 @@ The basics of finding and getting into a target.
 ### hydra
 - Used for cracking basic autentication stuff, like an Apache web server
 - Recommended to use it with the rockyou.txt file
+- Some useful modifiers
+    - `-l LOGIN` or `-L FILE`  login with LOGIN name, or load several logins from FILE
+    - `-p PASS`  or `-P FILE`  try password PASS, or load several passwords from FILE
+    - `-f` exit when a login/pass pair is found
+- Most probably there will be a login name found somewhere, and the password will be on the top part of the rockyou.txt file, so the recommended use would be
+    - `sudo hydra -l <login> -P <rockyou.txt with path> -f http://<IP adress>`
+    - There's a chance a port would be needed, then `sudo hydra -l <login> -P <rockyou.txt with path> -f -s <PORT> http://<IP adress>`
 
+## Reverse shell
+
+This is the basic reverse shell. It's not recommended to use this. Go and use the [Chained Reverse shell](crevshell.md)
 
