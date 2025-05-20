@@ -8,7 +8,7 @@ This is a very useful thing to have. This can also be upgraded to a semi-interac
 ### How to upgrade your successful Chained reverse shell to a semi-interactive one
 - Just paste `python3 -c "import pty; pty.spawn('/bin/bash')"`
 
-## The actual chained reverse shell
+## How to do a chained reverse shell
 
 ### Choose a port
 - Usually 4444 is good and free, but if it isn't, anything free above 1024 will do
