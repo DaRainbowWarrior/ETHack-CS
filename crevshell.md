@@ -11,7 +11,7 @@ This is a very useful thing to have. This can also be upgraded to a semi-interac
 ## How to do a chained reverse shell
 
 ### Choose a port
-- Usually 4444 is good and free, but if it isn't, anything free above 1024 will do
+- Usually `4444` is good and free, but if it isn't, anything free above `1024` will do
 
 ### Get an OS shell for your target machine
 - In this case it'll be Linux x64, so just create it with msfvenom

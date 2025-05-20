@@ -44,7 +44,7 @@ The basics of finding and getting into a target.
 This is the basic reverse shell. It is not really recommended to use this. You should use [Chained Reverse shell](crevshell.md) instead.
 
 ### Choose a port
-- Usually 4444 is good and free, but if it isn't, anything free above 1024 will do
+- Usually `4444` is good and free, but if it isn't, anything free above `1024` will do
 
 ### Make a shell code
 - You'll need to find a specific shell code to your usage. Google it (eg. [Something like this for PHP](https://gist.github.com/rshipp/eee36684db07d234c1cc))
