@@ -57,3 +57,5 @@ This is the basic reverse shell. It is not really recommended to use this. You s
 ### SOMEHOW get this code onto the target pc and run it
 - Then the target pc should link back to you via Netcat (nc)
 
+(PHP shells are crap and **not upgradeable**)
+
