@@ -1,3 +1,3 @@
 # ETHack-CS
 
-TODO
+[Basic Authentication](basicauth.md)
