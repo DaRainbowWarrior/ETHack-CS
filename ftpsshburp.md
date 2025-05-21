@@ -17,6 +17,9 @@
     - Navigate to `Proxy` -> `Intercept`
     - On the browser set up `FoxyProxy`, only need to set `IP` and `Port`
 - To use the internet normally the `Intercept` feature needs to be turned off
+- The `Repeater` and `Intruder` tools are the main use for us here
+    - Both of them can be used to crack login sites, like Hydra, but with a GUI
+    - DON'T try to use `rockyou.txt` with it, it'll freeze the whole attacking machine for a couple minutes
 
 
 ### How to check linux kernel version and distro version
