@@ -54,5 +54,3 @@ Any time we're looking to become root through permission escalation, we need to 
 - After navigating to it, the command `sudo john <path+filename>` should be used (UNTESTED)
     - If in the code hash, at the beginning there's a `$y$` instead of `$<number>$`, the command should be modified
     - `sudo john --format=crypt <path+filename>` in this case the correct use
-
-
