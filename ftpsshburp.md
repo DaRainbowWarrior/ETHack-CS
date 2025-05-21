@@ -3,7 +3,7 @@
 # FTP, SSH exploits and using Burpsuite
 
 ### FTP exploits
-- Depending on the version of FTP found, it's good to look in `msfconsole` or on [Exploit-db](exploit-db.com)
+- Depending on the version of FTP found, it's good to look in [msfconsole](wordpress.md#msfconsole) or on [Exploit-db](exploit-db.com)
     - RCE is the goal to get into the target machine
 
 ### SSH exploits
